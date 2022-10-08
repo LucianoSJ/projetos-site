@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Clientes</title>
+</head>
+<body>
+    <main>
+        <div class="loja-container-header">
+            <header>
+                <nav class="loja-header">
+                    <a href="">Menu</a>
+                </nav>
+            </header>
+        </div>
+
+        <div class="loja-container-form">
+            <div class="loja-form">
+                <form action="" method="post">
+                    <div class="titulo-loja">
+                        <h1>Cadastrar Clientes</h1>
+                    </div>
+                    <input class="loja-form-input" type="number" name="rep_id" placeholder="Código" required>
+                    <input class="loja-form-input" type="text" name="rep_nome" placeholder="Nome" required>
+                    <input class="loja-form-input" type="text" name="rep_rg" placeholder="RG">
+                    <input class="loja-form-input" type="text" name="rep_endereco" placeholder="Endereço">
+                    <input class="loja-form-input" type="text" name="rep_celular" placeholder="Celular">
+                    <input class="loja-form-input" type="text" name="rep_limite" placeholder="Limite de Crédito" required>
+                    <input class="loja-form-input" type="password" name="rep_senha" placeholder="Senha" required>
+                    <input class="loja-form-input" type="submit" name="enviar" value="Enviar">
+                 </form>  
+            </div>  
+        </div>
+
+        <div>
+            <table>
+                <thead>
+                     <th>Código</th>
+                     <th>Nome</th>
+                     <th>RG</th>
+                     <th>Endereço</th>
+                     <th>Telefone</th>
+                     <th>Limite de Crédito</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Luciano Santos de Jesus</td>
+                        <td>33.158.385-6</td>
+                        <td>Rua Lima Barreto, 30</td>
+                        <td>(11)9 4562-7718</td>
+                        <td>R$ 1.000,00</td>
+                        <td><a href=""><img src="img/editar-ico.svg" alt="editar"></a></td>
+                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                        <td><a href=""><img src="img/cadastrar-rep.svg" alt="cadastrar"></a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Daniel Judice de Jesus</td>
+                        <td>32.718.285-8</td>
+                        <td>Rua Lima Barreto, 30</td>
+                        <td>(11)9 4982-7718</td>
+                        <td>R$ 1.250,00</td>                        
+                        <td><a href=""><img src="img/editar-ico.svg" alt="editar"></a></td>
+                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                        <td><a href=""><img src="img/cadastrar-rep.svg" alt="cadastrar"></a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Suellen Santos de Jesus</td>
+                        <td>45.778.325-7</td>
+                        <td>Rua Lima Barreto, 30</td>
+                        <td>(11)9 4972-7318</td>
+                        <td>R$ 2.158,95</td>                        
+                        <td><a href=""><img src="img/editar-ico.svg" alt="editar"></a></td>
+                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                        <td><a href=""><img src="img/cadastrar-rep.svg" alt="cadastrar"></a></td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>        
+    </main>
+</body>
+</html>

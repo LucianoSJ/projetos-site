@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Login</title>
 </head>
 <body>
-    <h1>Página Inicial</h1>
-    <p>OK teste</p>
-    
+    <div class="container-index">
+        <div>
+             <img src="img/logo.png" alt="logo">
+        </div>
+        <div>
+            <form action="login.php" method="post">
+                <input type="text" name="usuario" placeholder="Usuário" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <input type="submit" class="btn-enviar" value="Entrar">
+            </form>
+        </div>
+    </div> 
 </body>
 </html>
