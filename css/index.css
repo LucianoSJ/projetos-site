@@ -45,12 +45,15 @@ input::placeholder {
     color: #ffff;
 }
 
-.btn-enviar{
-    background-color: #B22222;
-    cursor: pointer;                /* Altera o ícone do mouse */
+input:hover {
+    background-color: #384459bd;
 }
 
-.btn-enviar:hover {
-    background-color: #e81414;
-    transition:  0.3s linear;
-}
+#btn-enviar {
+    background: rgba(16, 84, 211, 0.24);
+    cursor: pointer;
+   }
+
+#btn-enviar:hover {
+    background-color: #384459bd;
+   }

@@ -43,8 +43,8 @@ body {
 }
 
 .titulo-loja h1 {
-    background-color: #B22222;
-    color: #ffff;
+    background-color: #ffff;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px;
     border-radius: 5px;
@@ -70,29 +70,71 @@ body {
     background-color: #384459;
 }
 
+
 .loja-form-input[type="submit"] {
     cursor: pointer;
 }
 
-table {
-    margin-top: 5px;
-    color: #ffff; 
+.loja-msg-azul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.loja-msg-vermelho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B22222;
+    color: #fff;
+    border: 2px solid #800000;
+    padding: 25px;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.loja-container-tabela {
+    margin: 0 auto;
+    max-width: max-content;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    border: 1px solid #092756;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.loja-table {
+    width: 100%;
+    color: #B0C4DE;
+    border-collapse: collapse;
+}
+
+.loja-table thead th {
     padding: 5px;
 }
 
-th {
-    border-bottom: 1px solid #ffff;
+.loja-table tbody tr {
+    height: 40px;
+    border-top: 1px solid #5f6e82; 
 }
 
-td {
-    padding-left: 5px;
-    border-left: 1px solid #ffff;
+.loja-table tbody tr:hover {
+    background-color: #384459;
+}
+
+.loja-table tbody td {
     text-align: center;
+    padding: 6px;
 }
 
-tr:hover{
-    background-color: #384459bd;
-    cursor: pointer;
+.loja-table-rep {
+    text-align: left;
 }
-
 
