@@ -1,0 +1,31 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.loja-container {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    padding-top: 10px;
+}
+
+.loja-menu ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.loja-menu ul li a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.loja-menu a:hover {
+    color: rgba(255, 255, 0, 0.918);
+    font-weight: bold;
+}

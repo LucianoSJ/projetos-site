@@ -9,31 +9,69 @@
     <title>Caixa</title>
 </head>
 <body>
+    <iframe src="menu.html" frameborder="0" width="100%" height="30px"></iframe>
     <main>
-<!--Esquerda 1-->
-        <div>
+        <div class="container-principal">
+            <div class="esquerda">
+                    <div class="conteudo-esquerdo1">
+                        <form action="" method="post">
+                            <input class="caixa-form-input" type="text" name="vendedor" placeholder="Vendedor">
+                            <input class="caixa-form-input" type="text" name="vliente" placeholder="Cliente">
+                            <input class="caixa-form-input"  type="text" name="data_compra" placeholder="Data da Compra">
+                        </form>
+                    </div>
+                    <div class="conteudo-esquerdo2">
+                        <input class="caixa-form-input" type="text" name="cod_barras" placeholder="Código de Barras" required>
+                        <input class="caixa-form-input" type="text" name="cod_produto" placeholder="Cód. Produto" required>
+                        <input class="caixa-form-input" type="text" name="produto" placeholder="Produto" required>
+                        <input type="text" name="valor_unitario">
+                        <input type="text" name="qtd" required>
+                        <input type="text" name="valor_total">
+                        <input type="text" name="qtd_Estoque">
+                    </div>
+                    
+                    <div class="conteudo-esquerdo3">
+                        <div class="loja-container-tabela">
+                            <table class="loja-table">
+                                <thead>
+                                    <th>Código</th>
+                                    <th>Produto</th>
+                                    <th>Valor Uni.</th>
+                                    <th>Qtd.</th>
+                                    <th>Valor Total</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>6</td>
+                                        <td id="nome-produto">Vestido com blusa moleton  Alakazoo florido</td>
+                                        <td>R$ 42,99</td>
+                                        <td>100</td>
+                                        <td>R$ 4.299,00</td>
+                                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3350</td>
+                                        <td id="nome-produto">Conj. Brandili Masc.</td>
+                                        <td>R$ 179,99</td>
+                                        <td>1</td>
+                                        <td>R$ 179,99</td>
+                                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
+            <div class="container-forma-pagamento">
+                <div class="forma-pagamento">Conteudo 6</div>
+            </div>
+
+            <div class="direita">
+                    <div class="conteudo-direito1">Conteudo 4</div>
+                    <div class="conteudo-direito2">Conteudo 5</div>
+            </div>
         </div>
-<!--Esquerda 2-->
-        <div>
-
-        </div>
-<!--Esquerda 3-->
-        <div>
-
-        </div>
-<!--Direita 1-->
-        <div>
-
-        </div>
-<!--Direita 2-->
-        <div>
-
-        </div>
-<!--Direita 3-->
-        <div>
-
-        </div>      
     </main>   
 </body>
 </html>

@@ -7,10 +7,141 @@
     font-weight: lighter;
 }
 
-div {
-    border: 1px solid blue;
-    padding: 10px;
+body {
+    background: #102347;
+}
+
+.container-principal{
+    width: 100%;
+}
+
+.esquerda {
+    width: 55%;
+    height: 100%; 
+    float: left;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;
+}
+
+.direita {
+    width: 30.3%;
+    height: 100%; 
+    float: right;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;
+}
+
+.container-forma-pagamento {
+    width: 12.5%;
+    height: 100%; 
+    float: right;
+    margin: 0px 4px 0px 4px;
+    padding: 4px;  
+}
+
+.forma-pagamento {
+    background: #102347;
+    border: 1px solid gray;
+    width: 100%;
+    height: 357.5px; 
+    margin-bottom: 7.5px; 
+    border-radius: 5px;
+}
+
+.conteudo-esquerdo1 {
+    background: #102347;
+    border: 1px solid gray;
+    width: 100%;
+    height: 86px; 
+    margin-bottom: 5px; 
+    border-radius: 5px;
+}
+
+.conteudo-esquerdo1 form input {
+    display: flex;
     margin: 5px;
-    width: 100px;
-    height: 80px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.caixa-form-input::placeholder {
+    color: #B0C4DE;
+    text-align: left;
+}
+
+.conteudo-esquerdo2 {
+    background: #102347;
+    border: 1px solid gray;
+    width: 100%;
+    height: 145px; 
+    margin-bottom: 5px;
+    border-radius: 5px; 
+}
+
+.conteudo-esquerdo3 {
+    background: #102347;
+    border: 1px solid gray;
+    width: 100%;
+    height: 328px; 
+    margin-bottom: 5px;
+    border-radius: 5px; 
+}
+
+.conteudo-direito1 {
+    background: #102347;
+    border: 1px solid gray;
+    width: 100%;
+    height: 357.5px; 
+    margin-bottom: 7.5px; 
+    border-radius: 5px;
+}
+
+.conteudo-direito2 {
+    background: #102347;
+    border: 1px solid gray;
+    width: 100%;
+    height: 200.3px;
+    margin-bottom: 7.5px; 
+    border-radius: 5px;
+}
+
+/* Tabela */ 
+
+.loja-container-tabela {
+    margin: 0 auto;
+    width: 99%;
+    background: #102347;
+    border: 1px solid #092756;
+    padding: 5px 5px 0px 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.loja-table {
+    width: 100%;
+    color: #B0C4DE;
+    border-collapse: collapse;
+}
+
+.loja-table thead th {
+    padding: 0px 16px 5px 16px;
+    color: rgba(255, 255, 0, 0.918);
+}
+
+.loja-table tbody tr {
+    height: 20px;
+    border-top: 1px solid #5f6e82; 
+}
+
+.loja-table tbody tr:hover {
+    background-color: #384459;
+}
+
+.loja-table tbody td {
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+#nome-produto {
+    text-align: left;
 }
