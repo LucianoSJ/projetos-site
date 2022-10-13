@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #102347;
+    background: #c7f4f7 url(../img/fundo-cinza.png) no-repeat top center;
 }
 
 .container-principal{
@@ -40,92 +40,77 @@ body {
 }
 
 .forma-pagamento {
-    background: #102347;
-    border: 1px solid gray;
     width: 100%;
     height: 357.5px; 
     margin-bottom: 7.5px; 
-    border-radius: 5px;
-}
-
-.conteudo-esquerdo1 {
-    background: #102347;
-    border: 1px solid gray;
-    width: 100%;
-    height: 86px; 
-    margin-bottom: 5px; 
-    border-radius: 5px;
 }
 
 .conteudo-esquerdo1 form input {
-    display: flex;
     margin: 5px;
-    width: 90%;
-    border-radius: 5px;
+    width: 70%;
 }
 
-.caixa-form-input::placeholder {
-    color: #B0C4DE;
-    text-align: left;
+.conteudo-esquerdo1 form input:hover {
+    background-color: rgb(240, 240, 170);
+}
+
+.conteudo-esquerdo1 {
+    width: 60%;
+    height: 100%px; 
+    margin-bottom: 15px; 
 }
 
 .conteudo-esquerdo2 {
-    background: #102347;
-    border: 1px solid gray;
     width: 100%;
-    height: 145px; 
-    margin-bottom: 5px;
-    border-radius: 5px; 
+    height: 100%; 
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 7px;
 }
 
 .conteudo-esquerdo3 {
-    background: #102347;
-    border: 1px solid gray;
+    background: fbfdd1;
     width: 100%;
     height: 328px; 
     margin-bottom: 5px;
-    border-radius: 5px; 
 }
 
 .conteudo-direito1 {
-    background: #102347;
-    border: 1px solid gray;
     width: 100%;
     height: 357.5px; 
     margin-bottom: 7.5px; 
-    border-radius: 5px;
+    border: 1px solid gray;
+    border-radius: 7px;
 }
 
 .conteudo-direito2 {
-    background: #102347;
-    border: 1px solid gray;
     width: 100%;
     height: 200.3px;
     margin-bottom: 7.5px; 
-    border-radius: 5px;
 }
 
 /* Tabela */ 
 
 .loja-container-tabela {
     margin: 0 auto;
-    width: 99%;
-    background: #102347;
+    width: 100%;
+    background: #fbfdd1;
     border: 1px solid #092756;
     padding: 5px 5px 0px 5px;
-    border-radius: 15px;
     margin-top: 5px;
+    border-radius: 7px;
 }
 
 .loja-table {
     width: 100%;
-    color: #B0C4DE;
+    color: black;
     border-collapse: collapse;
+    background-color: #fbfdd1;
 }
 
 .loja-table thead th {
     padding: 0px 16px 5px 16px;
-    color: rgba(255, 255, 0, 0.918);
+    color: blue
 }
 
 .loja-table tbody tr {
@@ -134,7 +119,7 @@ body {
 }
 
 .loja-table tbody tr:hover {
-    background-color: #384459;
+    background-color: #989b5b59;
 }
 
 .loja-table tbody td {
@@ -142,6 +127,38 @@ body {
     padding: 0px 16px 0px 16px;
 }
 
+/* Ajustes de campos */
+
 #nome-produto {
     text-align: left;
+}
+
+.container-produto {
+    margin: 10px;
+}
+
+#cod_p {
+    width: 185.7px;
+}
+
+#prd {
+    width: 489px;
+    margin-left: 60px;
+}
+
+#qt {
+    width: 35px;
+}
+
+#uni {
+    margin-left: 36px;
+    width: 170px;
+}
+
+#total{
+    width: 170px;
+}
+
+#cli {
+    margin-left: 20px;
 }

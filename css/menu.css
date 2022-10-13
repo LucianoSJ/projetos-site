@@ -11,8 +11,10 @@
     display: flex;
     justify-content: center;
     height: 30px;
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    background: #d5d5d5;
     padding-top: 10px;
+    border: 1px solid #5f6e82; 
+    border-radius: 5px;
 }
 
 .loja-menu ul li {
@@ -21,11 +23,11 @@
 }
 
 .loja-menu ul li a {
-    color: #ffff;
+    color: black;
     text-decoration: none;
 }
 
 .loja-menu a:hover {
-    color: rgba(255, 255, 0, 0.918);
+    color: blue;
     font-weight: bold;
 }

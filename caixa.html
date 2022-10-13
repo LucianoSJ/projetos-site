@@ -15,19 +15,37 @@
             <div class="esquerda">
                     <div class="conteudo-esquerdo1">
                         <form action="" method="post">
-                            <input class="caixa-form-input" type="text" name="vendedor" placeholder="Vendedor">
-                            <input class="caixa-form-input" type="text" name="vliente" placeholder="Cliente">
-                            <input class="caixa-form-input"  type="text" name="data_compra" placeholder="Data da Compra">
+                            <div>
+                            <label for="ven">Vendedor:</label>
+                                <input class="caixa-form-input" id="ven" type="text" name="vendedor">
+                            </div>
+                            <div>
+                            <label for="cli">Cliente:</label>
+                                <input class="caixa-form-input" id="cli" type="text" name="vliente">
+                            </div>
                         </form>
                     </div>
                     <div class="conteudo-esquerdo2">
-                        <input class="caixa-form-input" type="text" name="cod_barras" placeholder="Código de Barras" required>
-                        <input class="caixa-form-input" type="text" name="cod_produto" placeholder="Cód. Produto" required>
-                        <input class="caixa-form-input" type="text" name="produto" placeholder="Produto" required>
-                        <input type="text" name="valor_unitario">
-                        <input type="text" name="qtd" required>
-                        <input type="text" name="valor_total">
-                        <input type="text" name="qtd_Estoque">
+                            <form action="" method="post">
+                            <div class="container-produto">
+                                <label for="cod_b">Código de Barras:</label>
+                                <input class="caixa-form-input" id="cod_b" type="text" name="cod_barras" required>
+                                <label for="cod_p">Código do Produto:</label> 
+                                <input class="caixa-form-input" id="cod_p" type="text" name="cod_produto" required>
+                            </div>    
+                            <div class="container-produto">
+                                <label for="prd">Produto:</label>
+                                <input class="caixa-form-input" id="prd" type="text" name="produto" required>
+                            </div>
+                            <div class="container-produto">
+                                <label for="uni">Valor Utário:</label>
+                                <input id="uni" type="text" name="valor_unitario">
+                                <label for="qt">Qtd.:</label>
+                                <input id="qt" type="text" name="qtd" required>
+                                <label for="total">Valor Total:</label>
+                                <input id="total" type="text" name="valor_total">
+                            </div>
+                        </form>
                     </div>
                     
                     <div class="conteudo-esquerdo3">
@@ -64,12 +82,12 @@
                 </div>
 
             <div class="container-forma-pagamento">
-                <div class="forma-pagamento">Conteudo 6</div>
+                <div class="forma-pagamento"></div>
             </div>
 
             <div class="direita">
-                    <div class="conteudo-direito1">Conteudo 4</div>
-                    <div class="conteudo-direito2">Conteudo 5</div>
+                    <div class="conteudo-direito1"></div>
+                    <div class="conteudo-direito2"></div>
             </div>
         </div>
     </main>   

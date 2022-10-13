@@ -10,7 +10,7 @@
 /* Representantes / Descontos / Prazos  */
 
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#102347cb), to(#181818)) fixed;
+    background: #c7f4f7 url(../img/fundo-cinza.png) repeat-y top center;
 }
 
 .loja-container-header {
@@ -103,7 +103,7 @@ body {
 .loja-container-tabela {
     margin: 0 auto;
     max-width: max-content;
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    background: #c7f4f7 url(../img/fundo-cinza.png) no-repeat top center;
     border: 1px solid #092756;
     padding: 15px;
     border-radius: 15px;
