@@ -45,6 +45,17 @@ body {
     margin-bottom: 7.5px; 
 }
 
+.forma-pagamento .form-input {
+    width: 100px;
+    margin: 5px;
+    padding: 2px;
+    text-align: left;
+}
+
+.container-forma-pagamento h1 {
+    margin: 15px 0px;
+}
+
 .conteudo-esquerdo1 form input {
     margin: 5px;
     width: 70%;
@@ -162,3 +173,73 @@ body {
 #cli {
     margin-left: 20px;
 }
+
+#excluir {
+    padding: 0px;
+    padding-bottom: 5px;
+}
+
+#qt_itens {
+    margin-left: 55px;
+}
+
+#cod_venda {
+    margin-left: 20px;
+}
+
+#st {
+    margin-left: 25px;
+}
+
+#desc {
+    margin-left: 71px;
+}
+
+#ent {
+    margin-left: 2px;
+}
+
+#av_d {
+    margin-left: 15px;
+}
+
+
+/* Ícones de formas de pagamento */ 
+
+#dinheiro, #pix, #credito {
+    cursor: pointer;
+    border: 0px;
+}
+
+#dinheiro {
+    background: url(../img/dinheiro.svg) no-repeat left;
+    width: 100px;
+}
+
+#pix {
+    background: url(../img/Pix.svg) no-repeat left;
+    width: 200px;  
+}
+
+#credito {
+    background: url(../img/cartao-credito.svg) no-repeat left;
+}
+
+#dinheiro:hover, #pix:hover, #credito:hover {
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px;
+}
+
+#final {
+    background: url(../img/sacolas-raio-de-sol-70px.svg) no-repeat left;
+    cursor: pointer;
+    padding: 30px;
+    width: 200px;
+    border: 0px;
+} 
+
+.container-produto-final {
+   margin-left: 120px;
+   margin-top: 25px;
+}
+

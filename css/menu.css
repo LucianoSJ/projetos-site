@@ -8,13 +8,24 @@
 }
 
 .loja-container {
-    display: flex;
-    justify-content: center;
     height: 30px;
     background: #d5d5d5;
     padding-top: 10px;
     border: 1px solid #5f6e82; 
     border-radius: 5px;
+}
+
+.loja-logo img {
+    max-width: 100px;
+    float: left;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.loja-menu {
+   float: left;
+   margin-top: 3px;
+   margin-left: 10px;
 }
 
 .loja-menu ul li {

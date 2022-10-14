@@ -2,60 +2,40 @@
     margin: 0;
     padding: 0;
     font-size: 14px;
-    box-sizing: border-box;         /* navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura. */ 
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
-/* Representantes / Descontos / Prazos  */
 
 body {
     background: #c7f4f7 url(../img/fundo-cinza.png) repeat-y top center;
 }
 
-.loja-container-header {
-    margin: 0 auto;
-    max-width: max-content;
-    padding: 30px 0px;
-}
-
-.loja-header a {
-    text-decoration: none;
-    color: #ffff;
-    padding: 10px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
-}
-
-.loja-header a:hover {
-    background: #384459;
-}
-
-.loja-container-form, table {
+.loja-container-form {
     margin: 0 auto;
     max-width: max-content;
 }
 
-.loja-form, table {
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+.loja-form {
+    border: 1px solid #384459;
     border-radius: 10px;
     padding: 20px;
 }
 
-.titulo-loja h1 {
-    background-color: #ffff;
-    color: rgb(0, 0, 0);
+.loja-titulo h1 {
+    background-color: #B22222;
+    color: #ffff;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
 }
 
 .loja-form-input {
-    display: block;
+    display: block;                     
     margin-top: 5px;
     outline: none;                   /* tira o style */ 
     color: #B0C4DE;
-    background-color: #1b2531;
     border: 1px solid #384459;
     width: 100%;
     border-radius: 5px;
@@ -63,16 +43,21 @@ body {
 }
 
 .loja-form-input::placeholder {
-    color: #B0C4DE; 
+    color: #636464; 
 }
 
 .loja-form-input:hover {
-    background-color: #384459;
+    background-color: #afafaf;
 }
-
 
 .loja-form-input[type="submit"] {
     cursor: pointer;
+    color: #181818;
+}
+
+.loja-form-id {
+    color: #B0C4DE;
+    padding: 5px 20px;
 }
 
 .loja-msg-azul {
@@ -103,7 +88,6 @@ body {
 .loja-container-tabela {
     margin: 0 auto;
     max-width: max-content;
-    background: #c7f4f7 url(../img/fundo-cinza.png) no-repeat top center;
     border: 1px solid #092756;
     padding: 15px;
     border-radius: 15px;
@@ -118,15 +102,17 @@ body {
 
 .loja-table thead th {
     padding: 5px;
+    color: black;
 }
 
 .loja-table tbody tr {
     height: 40px;
     border-top: 1px solid #5f6e82; 
+    color: black;
 }
 
 .loja-table tbody tr:hover {
-    background-color: #384459;
+    background-color: #afafaf;
 }
 
 .loja-table tbody td {
@@ -137,4 +123,3 @@ body {
 .loja-table-rep {
     text-align: left;
 }
-
