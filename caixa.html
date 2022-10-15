@@ -17,11 +17,9 @@
                         <form action="" method="post">
                             <div>
                             <label for="ven">Vendedor:</label>
-                                <input class="caixa-form-input" id="ven" type="text" name="vendedor">
-                            </div>
-                            <div>
+                            <input class="caixa-form-input" id="ven" type="text" name="vendedor">
                             <label for="cli">Cliente:</label>
-                                <input class="caixa-form-input" id="cli" type="text" name="cliente">
+                            <input class="caixa-form-input" id="cli" type="text" name="cliente">
                             </div>
                         </form>
                     </div>
@@ -32,6 +30,7 @@
                                 <input class="caixa-form-input" id="cod_b" type="text" name="cod_barras" required>
                                 <label for="cod_p">Código do Produto:</label> 
                                 <input class="caixa-form-input" id="cod_p" type="text" name="cod_produto" required>
+                                <input id="lupa" class="form-input" type="submit" name="filtrar" value="        Filtrar"> 
                             </div>    
                             <div class="container-produto">
                                 <label for="prd">Produto:</label>
@@ -44,6 +43,7 @@
                                 <input id="qt" type="text" name="qtd" required>
                                 <label for="total">Valor Total:</label>
                                 <input id="total" type="text" name="valor_total">
+                                <input id="inserir" class="form-input" type="submit" name="inserir" value="        Inserir"> 
                             </div>
                         </form>
                     </div>
@@ -92,16 +92,16 @@
                         <input id="pix" class="form-input" type="submit" name="pix" value="      PIX">
                     </div>
                     <div>
-                        <input id="credito" class="form-input" type="submit" name="debito" value="      Débito">
+                        <input id="debito" class="form-input" type="submit" name="debito" value="      Débito">
                     </div>
                     <div>
                         <input id="credito" class="form-input" type="submit" name="credito" value="      Crédito">
                     </div>
                     <div>
-                        <input id="credito" class="form-input" type="submit" name="promissoria" value="      Promissória">
+                        <input id="promissoria" class="form-input" type="submit" name="promissoria" value="      Promissória">
                     </div>
                     <div>
-                        <input id="credito" class="form-input" type="submit" name="boleto" value="      Boleto">                     
+                        <input id="boleto" class="form-input" type="submit" name="boleto" value="      Boleto">                     
                     </div>
                 </div>
             </div>
@@ -130,7 +130,11 @@
                                 <input class="caixa-form-input" id="desc" type="text" name="desconto">
                             </div>  
                             <div class="container-produto">
-                                <label for="ent">Entrada em Dinheiro:</label>
+                                <label for="valor_ent">Valor de Entrada:</label>
+                                <input class="caixa-form-input" id="valor_ent" type="text" name="valor_entrada">
+                            </div>
+                            <div class="container-produto">
+                                <label for="ent">Forma de Entrada:</label>
                                 <input class="caixa-form-input" id="ent" type="text" name="entrada">
                             </div>
                             <div class="container-produto">
@@ -148,7 +152,7 @@
                     </div>
                     <div class="conteudo-direito2">
      <!--  Parcelas-->   
-                        <div class="loja-container-tabela">
+                        <div class="loja-container-tabela-parcelamento">
                             <table class="loja-table">
                                 <thead>
                                     <th>Parcelas</th>

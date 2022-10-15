@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #c7f4f7 url(../img/fundo-cinza.png) no-repeat top center;
+    background: #b2b4b5 url(../img/fundo-cinza.png);
 }
 
 .container-principal{
@@ -21,20 +21,19 @@ body {
     float: left;
     margin: 0px 4px 0px 4px;
     padding: 4px;
+
 }
 
 .direita {
-    width: 30.3%;
+    width: 28.3%;
     height: 100%; 
-    float: right;
-    margin: 0px 4px 0px 4px;
-    padding: 4px;
+    float: left;
 }
 
 .container-forma-pagamento {
     width: 12.5%;
     height: 100%; 
-    float: right;
+    float: left;
     margin: 0px 4px 0px 4px;
     padding: 4px;  
 }
@@ -47,18 +46,21 @@ body {
 
 .forma-pagamento .form-input {
     width: 100px;
-    margin: 5px;
+    margin: 5px 35px;
     padding: 2px;
     text-align: left;
 }
 
 .container-forma-pagamento h1 {
     margin: 15px 0px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+
 }
 
 .conteudo-esquerdo1 form input {
-    margin: 5px;
-    width: 70%;
+    width: 40%;
 }
 
 .conteudo-esquerdo1 form input:hover {
@@ -66,9 +68,9 @@ body {
 }
 
 .conteudo-esquerdo1 {
-    width: 60%;
-    height: 100%px; 
-    margin-bottom: 15px; 
+    width: 100%;
+    height: 100%; 
+    margin-bottom: 10px;
 }
 
 .conteudo-esquerdo2 {
@@ -87,7 +89,7 @@ body {
 }
 
 .conteudo-direito1 {
-    width: 100%;
+    width: 90%;
     height: 357.5px; 
     margin-bottom: 7.5px; 
     border: 1px solid gray;
@@ -95,7 +97,7 @@ body {
 }
 
 .conteudo-direito2 {
-    width: 100%;
+    width: 90%;
     height: 200.3px;
     margin-bottom: 7.5px; 
 }
@@ -112,7 +114,26 @@ body {
     border-radius: 7px;
 }
 
+.loja-container-tabela-parcelamento {
+    /* margin: 0 auto; */
+    width: 90%;
+    background: #fbfdd1;
+    border: 1px solid #092756;
+    padding: 5px 5px 0px 5px;
+    margin-top: 5px;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+
 .loja-table {
+    width: 100%;
+    color: black;
+    border-collapse: collapse;
+    background-color: #fbfdd1;
+}
+
+.loja-container-tabela-parcelamento .loja-table table {
     width: 100%;
     color: black;
     border-collapse: collapse;
@@ -121,7 +142,6 @@ body {
 
 .loja-table thead th {
     padding: 0px 16px 5px 16px;
-    color: blue
 }
 
 .loja-table tbody tr {
@@ -149,12 +169,12 @@ body {
 }
 
 #cod_p {
-    width: 185.7px;
+    width: 115.7px;
 }
 
 #prd {
-    width: 489px;
-    margin-left: 60px;
+    width:420px;
+    margin-left: 58px;
 }
 
 #qt {
@@ -163,17 +183,12 @@ body {
 
 #uni {
     margin-left: 36px;
-    width: 170px;
+    width: 120px;
 }
 
 #total{
-    width: 170px;
+    width: 150px;
 }
-
-#cli {
-    margin-left: 20px;
-}
-
 #excluir {
     padding: 0px;
     padding-bottom: 5px;
@@ -195,8 +210,13 @@ body {
     margin-left: 71px;
 }
 
+
+#valor_ent {
+    margin-left: 25px;
+}
+
 #ent {
-    margin-left: 2px;
+    margin-left: 18px;
 }
 
 #av_d {
@@ -206,9 +226,14 @@ body {
 
 /* Ícones de formas de pagamento */ 
 
-#dinheiro, #pix, #credito {
-    cursor: pointer;
-    border: 0px;
+#lupa {
+    background: url(../img/lupa.svg) no-repeat left;
+    padding-top: 10px;
+}
+
+#inserir {
+    background: url(../img/inserir.svg) no-repeat left;
+    padding-top: 10px;
 }
 
 #dinheiro {
@@ -225,9 +250,29 @@ body {
     background: url(../img/cartao-credito.svg) no-repeat left;
 }
 
-#dinheiro:hover, #pix:hover, #credito:hover {
+#debito {
+    background: url(../img/cartao-debito.svg) no-repeat left;
+    width: 100px;
+}
+
+#promissoria {
+    background: url(../img/promissoria.svg) no-repeat left; 
+    width: 200px;     
+}
+
+#boleto {
+    background: url(../img/boleto.svg) no-repeat left; 
+}
+
+#dinheiro:hover, #pix:hover, #credito:hover, #debito:hover, #promissoria:hover, #boleto:hover, #lupa:hover, #inserir:hover {
     border: 1px solid rgb(134, 134, 134);
     border-radius: 5px;
+}
+
+#dinheiro, #pix, #credito, #debito, #promissoria, #boleto, #lupa, #inserir {
+    cursor: pointer;
+    border: 0px;
+    padding-left: 5px;
 }
 
 #final {
@@ -240,6 +285,6 @@ body {
 
 .container-produto-final {
    margin-left: 120px;
-   margin-top: 25px;
+   margin-top: 5px;
 }
 
