@@ -7,38 +7,46 @@
     font-weight: lighter;
 }
 
-.loja-container {
-    height: 30px;
-    background: #d5d5d5;
-    padding-top: 10px;
-    border: 1px solid #5f6e82; 
-    border-radius: 5px;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.loja-logo img {
-    max-width: 100px;
-    float: left;
-    padding-bottom: 5px;
-    margin-left: 10px;
+ul {
+    list-style: none;
 }
 
-.loja-menu {
-   float: left;
-   margin-top: 3px;
-   margin-left: 10px;
-}
-
-.loja-menu ul li {
-    display: inline;
-    padding: 5px;
-}
-
-.loja-menu ul li a {
-    color: black;
+a {
     text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0px 20px; 
 }
 
-.loja-menu a:hover {
-    color: blue;
-    font-weight: bold;
+ul li a:hover {
+    background-color:  rgba(141, 139, 139, 0.3);
+}
+
+nav {
+    background-color: #ECECEC;
+    height: 25px;
+}
+
+ul#ul-principal {
+    background-color: blue;
+    width: 90%;
+    margin: auto;
+}
+
+.li-p {
+    line-height: 25px;
+    float: left;
+}
+
+ul li ul li {
+    background-color: #ECECEC;
+}
+
+.ul-caixa, .ul-cadastros, .ul-relatorios, .ul-estoque {
+    display: none;
 }

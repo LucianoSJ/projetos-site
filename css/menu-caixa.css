@@ -1,0 +1,42 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.loja-container {
+    height: 30px;
+    background: #d5d5d5;
+    padding-top: 10px;
+    border: 1px solid #5f6e82; 
+    border-radius: 5px;
+}
+
+.loja-logo img {
+    max-width: 100px;
+    float: left;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.loja-menu {
+   float: left;
+}
+
+.loja-menu ul li {
+    display: inline;
+}
+
+.loja-menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.loja-menu a:hover {
+    color: blue;
+    font-weight: bold;
+}
