@@ -11,171 +11,82 @@
 <body>
     <iframe src="menu-caixa.html" frameborder="0" width="100%" height="30px"></iframe>
     <main>
-        <div class="container-principal">
-            <div class="esquerda">
-                    <div class="conteudo-esquerdo1">
-                        <form action="" method="post">
-                            <div>
-                            <label for="ven">Vendedor:</label>
-                            <input class="caixa-form-input" id="ven" type="text" name="vendedor">
-                            <label for="cli">Cliente:</label>
-                            <input class="caixa-form-input" id="cli" type="text" name="cliente">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="conteudo-esquerdo2">
-                            <form action="" method="post">
-                            <div class="container-produto">
-                                <label for="cod_b">Código de Barras:</label>
-                                <input class="caixa-form-input" id="cod_b" type="text" name="cod_barras" required>
-                                <label for="cod_p">Código do Produto:</label> 
-                                <input class="caixa-form-input" id="cod_p" type="text" name="cod_produto" required>
-                                <input id="lupa" class="form-input" type="submit" name="filtrar" value="        Filtrar"> 
-                            </div>    
-                            <div class="container-produto">
-                                <label for="prd">Produto:</label>
-                                <input class="caixa-form-input" id="prd" type="text" name="produto" required>
-                            </div>
-                            <div class="container-produto">
-                                <label for="uni">Valor Utário:</label>
-                                <input id="uni" type="text" name="valor_unitario">
-                                <label for="qt">Qtd.:</label>
-                                <input id="qt" type="text" name="qtd" required>
-                                <label for="total">Valor Total:</label>
-                                <input id="total" type="text" name="valor_total">
-                                <input id="inserir" class="form-input" type="submit" name="inserir" value="        Inserir"> 
-                            </div>
-                        </form>
-                    </div>
-                    
-                    <div class="conteudo-esquerdo3">
-                        <div class="loja-container-tabela">
-                            <table class="loja-table">
-                                <thead>
-                                    <th>Código</th>
-                                    <th>Produto</th>
-                                    <th>Valor Uni.</th>
-                                    <th>Qtd.</th>
-                                    <th>Valor Total</th>
-                                    <th id="excluir">Excluir</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>6</td>
-                                        <td id="nome-produto">Vestido com blusa moleton  Alakazoo florido</td>
-                                        <td>R$ 42,99</td>
-                                        <td>100</td>
-                                        <td>R$ 4.299,00</td>
-                                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3350</td>
-                                        <td id="nome-produto">Conj. Brandili Masc.</td>
-                                        <td>R$ 179,99</td>
-                                        <td>1</td>
-                                        <td>R$ 179,99</td>
-                                        <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-     <!--  Formas de pagamento-->   
-            <div class="container-forma-pagamento">
-                <h1>Formas de pagamento</h1>
-                <div class="forma-pagamento">
+        <div class="esquerda">
+            <div class="conteudo-esquerdo1">
+                <form action="" method="post">
                     <div>
-                        <input id="dinheiro" class="form-input" type="submit" name="finalizar" value="      Dinheiro">
+                        <label for="ven">Vendedor:</label>
+                        <input class="caixa-form-input" id="ven" type="text" name="vendedor">
+                        <label for="cli">Cliente:</label>
+                        <input class="caixa-form-input" id="cli" type="text" name="cliente">
                     </div>
-                    <div>
-                        <input id="pix" class="form-input" type="submit" name="pix" value="      PIX">
+                </form>
+            </div>
+            <div class="conteudo-esquerdo2">
+                <form action="" method="post">
+                    <div class="container-produto">
+                        <label for="cod_b">Código de Barras:</label>
+                        <input class="caixa-form-input" id="cod_b" type="text" name="cod_barras" required>
+                        <label for="cod_p">Código do Produto:</label> 
+                        <input class="caixa-form-input" id="cod_p" type="text" name="cod_produto" required>
+                        <input id="lupa" class="form-input" type="submit" name="filtrar" value="        Filtrar"> 
+                    </div>    
+                    <div class="container-produto">
+                        <label for="prd">Produto:</label>
+                        <input class="caixa-form-input" id="prd" type="text" name="produto" required>
                     </div>
-                    <div>
-                        <input id="debito" class="form-input" type="submit" name="debito" value="      Débito">
+                    <div class="container-produto">
+                        <label for="uni">Valor Utário:</label>
+                        <input id="uni" type="text" name="valor_unitario">
+                        <label for="qt">Qtd.:</label>
+                        <input id="qt" type="text" name="qtd" required>
+                        <label for="total">Valor Total:</label>
+                        <input id="total" type="text" name="valor_total">
+                        <input id="inserir" class="form-input" type="submit" name="inserir" value="        Inserir"> 
                     </div>
-                    <div>
-                        <input id="credito" class="form-input" type="submit" name="credito" value="      Crédito">
-                    </div>
-                    <div>
-                        <input id="promissoria" class="form-input" type="submit" name="promissoria" value="      Promissória">
-                    </div>
-                    <div>
-                        <input id="boleto" class="form-input" type="submit" name="boleto" value="      Boleto">                     
-                    </div>
+                </form>
+            </div>
+            
+            <div class="conteudo-esquerdo3">
+                <div class="loja-container-tabela">
+                    <table class="loja-table">
+                        <thead>
+                            <th>Código</th>
+                            <th>Produto</th>
+                            <th>Valor Uni.</th>
+                            <th>Qtd.</th>
+                            <th>Valor Total</th>
+                            <th id="excluir">Excluir</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>6</td>
+                                <td id="nome-produto">Vestido com blusa moleton  Alakazoo florido</td>
+                                <td class="coluna-valor">R$ 42,99</td>
+                                <td>100</td>
+                                <td class="coluna-valor">R$ 4.299,00</td>
+                                <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                            </tr>
+                            <tr>
+                                <td>3350</td>
+                                <td id="nome-produto">Conj. Brandili Masc.</td>
+                                <td class="coluna-valor">R$ 179,99</td>
+                                <td>1</td>
+                                <td class="coluna-valor">R$ 179,99</td>
+                                <td><a href=""><img src="img/remover-ico.svg" alt="excluir"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-     <!--  Finalizar Venda-->   
-            <div class="direita">
-                    <div class="conteudo-direito1">
-                        <form action="" method="post">
-                            <div class="container-produto">
-                            <label for="qt_itens">Qtd. item(s):</label>
-                                <input  class="caixa-form-input" id="qt_itens" type="text" name="qtd_itens">
-                            </div>
-                            <div class="container-produto">
-                            <label for="cod_venda">Código da Venda:</label>
-                                <input class="caixa-form-input" id="cod_venda" type="text" name="codigo_venda">
-                            </div>
-                            <div class="container-produto">
-                                <label for="st">Status da Venda:</label>
-                                <input class="caixa-form-input" id="st" type="text" name="status">
-                            </div>
-                            <div class="container-produto">
-                                <label for="tot">Valor Total da Venda:</label>
-                                <input class="caixa-form-input" id="tot" type="text" name="total_venda">
-                            </div>
-                            <div class="container-produto">
-                                <label for="desc">Desconto:</label>
-                                <input class="caixa-form-input" id="desc" type="text" name="desconto">
-                            </div>  
-                            <div class="container-produto">
-                                <label for="valor_ent">Valor de Entrada:</label>
-                                <input class="caixa-form-input" id="valor_ent" type="text" name="valor_entrada">
-                            </div>
-                            <div class="container-produto">
-                                <label for="ent">Forma de Entrada:</label>
-                                <input class="caixa-form-input" id="ent" type="text" name="entrada">
-                            </div>
-                            <div class="container-produto">
-                                <label for="for_pg">Forma de Pagameno:</label>
-                                <input class="caixa-form-input" id="for_pg" type="text" name="forma_pg">
-                            </div>  
-                            <div class="container-produto">
-                                <label for="av_d">Avista em Dinheiro:</label>
-                                <input class="caixa-form-input" id="av_d" type="text" name="avista_dinheiro">
-                            </div>
-                            <div class="container-produto-final">
-                                <input id="final" class="form-input" type="submit" name="finalizar" value="             Finalizar Venda">
-                            </div>                                                                                             
-                        </form>
-                    </div>
-                    <div class="conteudo-direito2">
-     <!--  Parcelas-->   
-                        <div class="loja-container-tabela-parcelamento">
-                            <table class="loja-table">
-                                <thead>
-                                    <th>Parcelas</th>
-                                    <th>Valor</th>
-                                    <th>Data</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1/2</td>
-                                        <td>R$ 100,00</td>
-                                        <td>01/11/2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2/2</td>
-                                        <td>R$ 100,00</td>
-                                        <td>01/12/2022</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>                
-                    </div>
+        </div>  
+        <div class="container-finalizar">
+            <div class="container-produto">
+                <label for="tot">Valor Total:</label>
+                <input class="caixa-form-input" id="tot" type="text" name="total_venda">
             </div>
-        </div>
+            <input id="final" class="form-input" type="submit" name="finalizar" value="             Finalizar Venda"> 
+        </div> 
     </main>   
 </body>
 </html>

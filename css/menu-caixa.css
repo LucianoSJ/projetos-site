@@ -9,7 +9,7 @@
 
 .loja-container {
     height: 30px;
-    background: #d5d5d5;
+    background-color:  rgba(141, 139, 139, 0.3);
     padding-top: 10px;
     border: 1px solid #5f6e82; 
     border-radius: 5px;
@@ -17,17 +17,20 @@
 
 .loja-logo img {
     max-width: 100px;
-    float: left;
-    padding-bottom: 5px;
-    margin-left: 10px;
+    float: right;
+    padding-bottom: 15px;
+    margin-right: 30px;
+    /* margin-bottom: 5px; */
+
 }
 
-.loja-menu {
-   float: left;
-}
+/* .loja-menu {
+   float: right;
+} */
 
 .loja-menu ul li {
     display: inline;
+    
 }
 
 .loja-menu ul li a {

@@ -8,144 +8,77 @@
 }
 
 body {
-    background: #b2b4b5 url(../img/fundo-cinza.png);
-}
-
-.container-principal{
-    width: 100%;
+    background: #c7f4f7 url(../img/fundo-sol-em-baixo.png) no-repeat;
 }
 
 .esquerda {
-    width: 55%;
+    width: 660px;
     height: 100%; 
     float: left;
-    margin: 0px 4px 0px 4px;
-    padding: 4px;
-
-}
-
-.direita {
-    width: 28.3%;
-    height: 100%; 
-    float: left;
-}
-
-.container-forma-pagamento {
-    width: 12.5%;
-    height: 100%; 
-    float: left;
-    margin: 0px 4px 0px 4px;
-    padding: 4px;  
-}
-
-.forma-pagamento {
-    width: 100%;
-    height: 357.5px; 
-    margin-bottom: 7.5px; 
-}
-
-.forma-pagamento .form-input {
-    width: 100px;
-    margin: 5px 35px;
-    padding: 2px;
-    text-align: left;
-}
-
-.container-forma-pagamento h1 {
-    margin: 15px 0px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 5px;
-
-}
-
-.conteudo-esquerdo1 form input {
-    width: 40%;
-}
-
-.conteudo-esquerdo1 form input:hover {
-    background-color: rgb(240, 240, 170);
+    margin: 15px 4px 0px 15px;
 }
 
 .conteudo-esquerdo1 {
-    width: 100%;
+    width: max-content;
     height: 100%; 
     margin-bottom: 10px;
+    float: left;
 }
 
 .conteudo-esquerdo2 {
-    width: 100%;
+    width: max-content;
     height: 100%; 
     margin-bottom: 15px;
     border: 1px solid gray;
     border-radius: 7px;
+    float: left;
 }
 
 .conteudo-esquerdo3 {
     background: fbfdd1;
-    width: 100%;
+    width: max-content;
     height: 328px; 
     margin-bottom: 5px;
+    float: left;
 }
 
-.conteudo-direito1 {
-    width: 90%;
-    height: 357.5px; 
-    margin-bottom: 7.5px; 
-    border: 1px solid gray;
-    border-radius: 7px;
-}
-
-.conteudo-direito2 {
-    width: 90%;
-    height: 200.3px;
-    margin-bottom: 7.5px; 
-}
+.container-finalizar {
+    margin-top: 45px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 5px;
+    width: 280px;
+    float: left;
+ }
 
 /* Tabela */ 
 
 .loja-container-tabela {
-    margin: 0 auto;
-    width: 100%;
+    width: max-content;
+    /* width: 50%; */
     background: #fbfdd1;
     border: 1px solid #092756;
-    padding: 5px 5px 0px 5px;
+    /* padding: 5px 5px 0px 5px; */
     margin-top: 5px;
     border-radius: 7px;
+    float: left;
 }
-
-.loja-container-tabela-parcelamento {
-    /* margin: 0 auto; */
-    width: 90%;
-    background: #fbfdd1;
-    border: 1px solid #092756;
-    padding: 5px 5px 0px 5px;
-    margin-top: 5px;
-    border-radius: 7px;
-    margin-left: 20px;
-}
-
 
 .loja-table {
-    width: 100%;
+    width: max-content;
+    /* width: 100%; */
     color: black;
     border-collapse: collapse;
     background-color: #fbfdd1;
+    float: left;
+    border-radius: 7px;
 }
 
-.loja-container-tabela-parcelamento .loja-table table {
-    width: 100%;
-    color: black;
-    border-collapse: collapse;
-    background-color: #fbfdd1;
-}
-
-.loja-table thead th {
+/* .loja-table thead th {
     padding: 0px 16px 5px 16px;
-}
+} */
 
 .loja-table tbody tr {
-    height: 20px;
+    height: 10px;
     border-top: 1px solid #5f6e82; 
 }
 
@@ -155,8 +88,12 @@ body {
 
 .loja-table tbody td {
     text-align: center;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 12px 0px 12px;
 }
+
+/* .coluna-valor {
+    width: 120px;
+} */
 
 /* Ajustes de campos */
 
@@ -198,32 +135,6 @@ body {
     margin-left: 55px;
 }
 
-#cod_venda {
-    margin-left: 20px;
-}
-
-#st {
-    margin-left: 25px;
-}
-
-#desc {
-    margin-left: 71px;
-}
-
-
-#valor_ent {
-    margin-left: 25px;
-}
-
-#ent {
-    margin-left: 18px;
-}
-
-#av_d {
-    margin-left: 15px;
-}
-
-
 /* Ícones de formas de pagamento */ 
 
 #lupa {
@@ -236,40 +147,12 @@ body {
     padding-top: 10px;
 }
 
-#dinheiro {
-    background: url(../img/dinheiro.svg) no-repeat left;
-    width: 100px;
-}
-
-#pix {
-    background: url(../img/Pix.svg) no-repeat left;
-    width: 200px;  
-}
-
-#credito {
-    background: url(../img/cartao-credito.svg) no-repeat left;
-}
-
-#debito {
-    background: url(../img/cartao-debito.svg) no-repeat left;
-    width: 100px;
-}
-
-#promissoria {
-    background: url(../img/promissoria.svg) no-repeat left; 
-    width: 200px;     
-}
-
-#boleto {
-    background: url(../img/boleto.svg) no-repeat left; 
-}
-
-#dinheiro:hover, #pix:hover, #credito:hover, #debito:hover, #promissoria:hover, #boleto:hover, #lupa:hover, #inserir:hover {
+#lupa:hover, #inserir:hover {
     border: 1px solid rgb(134, 134, 134);
     border-radius: 5px;
 }
 
-#dinheiro, #pix, #credito, #debito, #promissoria, #boleto, #lupa, #inserir {
+#lupa, #inserir {
     cursor: pointer;
     border: 0px;
     padding-left: 5px;
@@ -281,10 +164,5 @@ body {
     padding: 30px;
     width: 200px;
     border: 0px;
+    margin-left: 60px;
 } 
-
-.container-produto-final {
-   margin-left: 120px;
-   margin-top: 5px;
-}
-
