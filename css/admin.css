@@ -12,6 +12,14 @@ body {
     background: #c7f4f7 url(../img/fundo-cliente.jpg) no-repeat;
 }
 
+.titulo-loja h1 {
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: rgba(141, 139, 139, 0.3);
+    padding: 5px;
+    text-align: center;
+}
+
 .loja-container-form {
     margin: 0 auto;
     max-width: max-content;
@@ -47,7 +55,7 @@ body {
 }
 
 .loja-form-input:hover {
-    background-color: #afafaf;
+    background-color: rgba(141, 139, 139, 0.3);
 }
 
 .loja-form-input[type="submit"] {
@@ -112,7 +120,7 @@ body {
 }
 
 .loja-table tbody tr:hover {
-    background-color: #afafaf;
+    background-color: rgba(141, 139, 139, 0.3);
 }
 
 .loja-table tbody td {

@@ -46,7 +46,7 @@ input::placeholder {
 }
 
 input:hover {
-    background-color: #384459bd;
+    background-color: rgba(141, 139, 139, 0.3);
 }
 
 #btn-enviar {
@@ -55,5 +55,5 @@ input:hover {
    }
 
 #btn-enviar:hover {
-    background-color: #384459bd;
+    background-color: rgba(141, 139, 139, 0.3);
    }

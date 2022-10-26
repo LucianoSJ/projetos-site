@@ -14,6 +14,7 @@ body {
 .container-principal {
     margin: 0 auto;
     max-width: max-content;
+    margin-top: 30px;
 }
 
 .forma-pagamento {
@@ -23,6 +24,7 @@ body {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    background-color: rgba(141, 139, 139, 0.2);
 }
 
 .container-esquerdo {
@@ -32,16 +34,7 @@ body {
     padding: 10px;
     margin: 10px;
     text-align: center;
-}
-
-.botoes-pg {
-    width: 100px;
-    text-align: right;
-    margin-top: 5px;
-}
-
-.botao-finalizar {
-    margin: 20px;
+    background-color: rgba(141, 139, 139, 0.2);
 }
 
 .container-produto {
@@ -51,10 +44,10 @@ body {
 
 .forma-pagamento h1 {
     margin-bottom: 20px;
-    border: 1px solid gray;
-    border-radius: 7px;
     padding: 3px;
-    background-color:burlywood;
+    background-color: #ffff;
+    border: 1px solid #777777;
+    border-radius: 7px;
 }
 
 /* Tabela */ 
@@ -92,4 +85,52 @@ body {
 .parcelamento-table tbody td {
     text-align: center;
     padding: 0px 16px 0px 16px;
+}
+
+/* Botões */
+
+.botoes-pg {
+    width: 110px;
+    text-align: right;
+    margin-top: 5px;
+    padding: 2px;
+    border: none; 
+}
+
+#dinheiro {
+    background: url(../img/dinheiro.svg) no-repeat;
+}
+
+#pix {
+    background: url(../img/Pix.svg) no-repeat;
+}
+
+#debito {
+    background: url(../img/cartao-debito.svg) no-repeat;
+}
+
+#credito {
+    background: url(../img/cartao-credito.svg) no-repeat;
+}
+
+#promissoria {
+    background: url(../img/promissoria.svg) no-repeat;
+}
+
+#boleto {
+    background: url(../img/boleto.svg) no-repeat;
+}
+
+#final {
+    background: url(../img/sacolas-raio-de-sol-70px.svg) no-repeat; 
+    padding: 30px 70px; 
+    border: none; 
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#dinheiro:hover, #pix:hover, #debito:hover, #credito:hover, #promissoria:hover, #boleto:hover, #final:hover {
+    background-color: rgba(141, 139, 139, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
 }
