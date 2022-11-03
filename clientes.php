@@ -9,7 +9,7 @@
     <title>Clientes</title>
 </head>
 <body>
-    <iframe src="menu.html" frameborder="0" width="100%" height="100px"></iframe>
+    <iframe src="menu.html" frameborder="0" width="100%" height="70px"></iframe>
     <main>
         <div class="loja-container-form">
             <div class="loja-form">
