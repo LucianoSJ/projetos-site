@@ -21,6 +21,19 @@
             <div>
                 <input type="submit" class="btn-enviar" value="Entrar">
             </div>
+
+            <? if(isset($_GET['login']) && $_GET['login'] == 'erro'){ ?>
+                <div class="text-danger">
+                    Usuário ou senha inválido(s)!
+                </div>
+            <? } ?>
+
+            <? if(isset($_GET['login']) && $_GET['login'] == 'erro2'){ ?>
+                <div class="text-danger">
+                    Faça o login antes de acessar as páginas!
+                </div>
+            <? } ?>
+
         </form>
     </div>
 </body>
