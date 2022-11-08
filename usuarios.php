@@ -1,3 +1,7 @@
+<?php
+    require_once './verifica_sessao.php';
+    $usuario = new Usuario(); 
+?>
 <!DOCTYPE html>
 <html lang="pr-br">
 <head>

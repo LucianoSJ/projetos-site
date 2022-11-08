@@ -1,3 +1,6 @@
+<?php
+    require_once './verifica_sessao.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
