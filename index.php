@@ -15,11 +15,11 @@
     <div id="container">
         <img src="img/perfil.png" alt="">
         <div>
-                <form action="login.php" method="post" autocomplete="off">
+            <form action="login.php" method="post" autocomplete="off">
                     <input type="text" name="usuario" placeholder="Usuário" required>
                     <input type="password" name="senha" placeholder="Senha" required>
                     <input type="submit" class="btn-enviar" value="Entrar">
-                </form> 
+            </form> 
             </div>
             <?php if (isset($_SESSION['erroLogin'])) { ?>
                 <div class="erro-login">
