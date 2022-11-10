@@ -1,6 +1,6 @@
 <?php
     require_once './verifica_sessao.php';
-    $usuario = new Usuario(); 
+    require_once 'menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

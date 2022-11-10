@@ -1,6 +1,6 @@
 <?php
     require_once './verifica_sessao.php';
-    $usuario = new Usuario(); 
+    require_once 'menu.php';
 ?>
 <!DOCTYPE html>
 <html lang="pr-br">
@@ -13,7 +13,6 @@
     <title>Usuarios</title>
 </head>
 <body>
-    <iframe src="menu.html" frameborder="0" width="100%" height="100px"></iframe>
     <main>
         <div class="loja-container-form">
             <div class="loja-form">

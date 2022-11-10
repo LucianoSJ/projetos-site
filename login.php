@@ -6,7 +6,7 @@
 
     if ($usuario->login($_POST['usuario'], $_POST['senha'])) {
         header("Location: menu.php");            
-    } else {   
+    } else {
         $usuario->erroLogin();
     }
 ?>

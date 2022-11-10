@@ -1,6 +1,6 @@
 <?php
     require_once './verifica_sessao.php';
-    $usuario = new Usuario(); 
+    require_once 'menu-caixa.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -13,7 +13,6 @@
     <title>Caixa</title>
 </head>
 <body>
-    <iframe src="menu-caixa.html" frameborder="0" width="100%" height="30px"></iframe>
     <main>
         <div class="esquerda">
             <div class="conteudo-esquerdo1">
