@@ -166,3 +166,11 @@ body {
     border: 0px;
     margin-left: 60px;
 } 
+
+.conteudo-esquerdo2 select {
+    margin-top: 5px;
+}
+
+.label-comboBox {
+    margin-left: 58px;
+}

@@ -20,17 +20,14 @@
     float: right;
     padding-bottom: 15px;
     margin-right: 30px;
-    /* margin-bottom: 5px; */
-
 }
-
-/* .loja-menu {
-   float: right;
-} */
 
 .loja-menu ul li {
     display: inline;
-    
+}
+
+.loja-menu ul{
+    float: right;
 }
 
 .loja-menu ul li a {

@@ -1,7 +1,13 @@
 <?php
-    require_once './verifica_sessao.php';
-    require_once 'menu-caixa.php';
+     require_once './verifica_sessao.php';
+     require_once 'menu-caixa.php';
+     require_once './classes/Caixa.class.php';
+
+     $caixa = new Caixa();
+     $listarClientes = $caixa->listaClientes();
+     $listarVendedor = $caixa->listaVendedor();
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,18 +21,31 @@
 <body>
     <main>
         <div class="esquerda">
-            <div class="conteudo-esquerdo1">
-                <form action="" method="post">
+            <!-- <div class="conteudo-esquerdo1">
+                <form action="caixa.php" method="post">
                     <div>
                         <label for="ven">Vendedor:</label>
                         <input class="caixa-form-input" id="ven" type="text" name="vendedor">
                         <label for="cli">Cliente:</label>
-                        <input class="caixa-form-input" id="cli" type="text" name="cliente">
+                        <select name="clientes">
+                        </select> 
                     </div>
                 </form>
-            </div>
+            </div> -->
             <div class="conteudo-esquerdo2">
-                <form action="" method="post">
+                <form action="caixa.php" method="post">
+                    <label class="label-comboBox" for="cli">Vendedor:</label>
+                    <select name="vendedor">
+                        <?php foreach ($listarVendedor as $dadosVendedor) { ?>
+                            <option value="<?php echo $dadosVendedor['id']?>"><?php echo $dadosVendedor['nome'] ?></option> 
+                        <?php }  $_POST['vendedor'] ?>  
+                    </select> 
+                    <label for="cli">Cliente:</label>
+                    <select name="clientes">
+                        <?php foreach ($listarClientes as $dadosClientes) { ?>
+                            <option value="<?php echo $dadosClientes['id']?>"><?php echo $dadosClientes['nome'] ?></option> 
+                        <?php }  $_POST['clientes'] ?>  
+                    </select> 
                     <div class="container-produto">
                         <label for="cod_b">Código de Barras:</label>
                         <input class="caixa-form-input" id="cod_b" type="text" name="cod_barras" required>

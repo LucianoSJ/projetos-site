@@ -22,7 +22,7 @@
                          <img src="img/seta-preta.png" width="15">
                     </a>
                     <ul class="ul-caixa">
-                        <li><a href="caixa.php">Abrir</a></li>
+                        <li><a href="./caixa.php">Abrir</a></li>
                         <li><a href="./logout.php">Fechar</a></li>
                         <li><a href="">Retirar</a></li>
                         <li><a href="">Acresecentar</a></li>
